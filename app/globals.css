@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0b0b0b;
+  color: #f8fafc;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.btn-gold {
+  @apply bg-gold text-black font-semibold hover:bg-gold/90 transition;
+}
+
+.card {
+  @apply bg-accent/50 backdrop-blur border border-gold/10 rounded-2xl p-8;
+}
